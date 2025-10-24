@@ -1,0 +1,34 @@
+# Dependency folders
+# Ignore node_modules in all directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables
+# Ignore all .env files to protect secret keys
+.env
+**/.env
+.env.*
+
+# Server Uploads
+# Ignore the folder where user files are temporarily stored
+/server/uploads/
+
+# Client Build Output
+# Ignore the production build folder from Vite
+/client/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Config
+.vscode/
+.history/
+.idea/
